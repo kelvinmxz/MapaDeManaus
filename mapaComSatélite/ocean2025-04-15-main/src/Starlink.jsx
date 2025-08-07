@@ -306,6 +306,22 @@ function Starlink() {
           </li>
         </ul>
       </div>
+
+      {/* Barra de autoria fixa no rodapé */}
+      <div style={{
+        position: 'fixed',
+        left: 0,
+        bottom: 0,
+        width: '100%',
+        backgroundColor: '#222',
+        color: '#fff',
+        textAlign: 'center',
+        padding: '10px 0',
+        fontSize: '16px',
+        zIndex: 9999
+      }}>
+        <i>MXZ-Feito por Kelvin Costa Maues</i>
+      </div>
     </div>
   );
 }
